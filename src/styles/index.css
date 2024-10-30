@@ -1,5 +1,16 @@
+body {
+    background-image: url(https://img.freepik.com/fotos-premium/fondos-texturas-grunge-textura-blanca-superficie-pintada-decorativa_160901-4981.jpg?w=740);
+  }
+
+.title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    color: pink;
+}
+  
 ul {
     list-style: none;
+    background-color: white;
 }
 
 li:hover>*{
@@ -11,3 +22,27 @@ li:hover>*{
     visibility: hidden;
 }
 
+.xButton{
+    padding-top: 2px;
+}
+
+.lista{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.spanBottom {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: x-small;
+}
+
+.bottomDiv{
+    background-color: white;
+}
+
+input:focus{ border: none}
